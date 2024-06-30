@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samar Jewelry</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Welcome to Samar Jewelry</h1>
+            <p>Find the best products here.</p>
+        </section>
+      
+      <div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="images/pic1.jpg" class="centered-image rounded-corners">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/pic2.jpg" class="centered-image rounded-corners">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/pic3.jpg" class="centered-image rounded-corners">
+    </div>
+    <!-- Add more slides as needed -->
+</div>
+
+<br>
+
+<div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+
+        <section id="rings" class="products">
+            <h2>Rings</h2>
+          <div class="product">
+                <img src="images/ring2.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Silver rose gold</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring3.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Double Heart Silver Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring4.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Silver Star Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring5.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Ruby Silver Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring6.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Double Heart Gold Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring7.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Blue Rose Gold Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring8.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Sun And Moon Rings</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring9.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Double Band Heart Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring10.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Cinderella Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring11.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring12.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Sparkling Pear Halo Ring</h3>
+                <p>$27.00</p>
+            </div>
+          <div class="product">
+                <img src="images/ring13.jpg" alt="Ring 1" height="115px" width="115px">
+                <h3>Gold Rose Ring</h3>
+                <p>$27.00</p>
+            </div>
+            <!-- More rings here -->
+        </section>
+
+        <section id="necklaces" class="products">
+            <h2>Necklaces</h2>
+            <div class="product">
+                <img src="images/neck1.jpg" alt="Necklace 1" height="115px" width="115px">
+                <h3>Heart Rose Gold Necklace</h3>
+                <p>$35.00</p>
+            </div>
+            <!-- More necklaces here -->
+        </section>
+
+        <section id="bracelets" class="products">
+            <h2>Bracelets</h2>
+            <div class="product">
+                <img src="images/brace1.jpg" alt="Bracelet 1" height="115px" width="115px">
+                <h3>Heart Tennis Bracelet</h3>
+                <p>$35.00</p>
+            </div>
+          <div class="product">
+                <img src="images/brace2.jpg" alt="Bracelet 1" height="115px" width="115px">
+                <h3>Sparkling Pavé Tennis Bracelet</h3>
+                <p>$35.00</p>
+            </div>
+            <!-- More bracelets here -->
+        </section>
+</main>
+
+  <div id="credit" style="display:none;">Website developed by RoboDev</div>
+<script>
+    (function() {
+        const creditElement = document.getElementById('credit');
+        const mainElement = document.querySelector('main');
+        
+        if (!creditElement || creditElement.innerText !== 'Website developed by RoboDev') {
+            if (mainElement) {
+                mainElement.remove();
+            }
+            throw new Error("Do not remove credits!");
+        }
+    })();
+</script>
+  
+    <footer>
+        <p>&copy; 2024 Samar Jewelry. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
